@@ -1,0 +1,174 @@
+<section class="heroo container">
+  <nav class="navbar bg-body-tertiary">
+    <form class="container-fluid">
+      <div class="input-group">
+        <span class="input-group-text" id="basic-addon1"
+          ><i class="fa-solid fa-location-pin"></i
+        ></span>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Search By Name"
+          aria-label="Username"
+          aria-describedby="basic-addon1"
+        />
+        <button class="btn btn-primary">search</button>
+      </div>
+    </form>
+    
+  </nav>
+  <div class="content">
+    <button type="button" class="btnn mt-4 m-auto">POPULAR RENTAL DEALS</button>
+    <h1 class="d-flex justify-content-center">
+      Most popular cars rental deals
+    </h1>
+  </div>
+
+  <div class="row row-cols-1 mt-4 row-cols-md-4 g-4">
+    <div *ngFor="let car of cars"  class="col">
+      <div class="card shadow-lg p-3 mb-5">
+        <img
+          src="assets/images/landing-page/car1.png"
+          class="card-img-top w-75 ms-4 mt-3"
+          alt="..."
+        />
+        <div class="card-body">
+          <h1>{{ car.make }}</h1>
+          <h5 class="card-title">{{ car.car }}</h5>
+          <p class="card-text">
+            <i class="fa-solid fa-star star-rate"></i>
+            <span class="rate">4.8</span> (2.426 reviews)
+          </p>
+
+          <div class="cardline">
+            <div class="card-icons d-flex">
+              <div class="icon1">
+                <i class="fa-regular fa-user"></i
+                ><span class="ms-1">4 Passangers</span>
+              </div>
+              <div class="icon1 ms-auto">
+                <i class="fa-solid fa-bezier-curve"></i
+                ><span class="ms-1">Auto</span>
+              </div>
+            </div>
+            <div class="card-icons d-flex">
+              <div class="icon1">
+                <i class="fa-solid fa-snowflake"></i
+                ><span class="ms-1">Air Conditioning</span>
+              </div>
+              <div class="icon1 ms-auto">
+                <i class="fa-solid fa-car"></i><span class="ms-1">Doors</span>
+              </div>
+            </div>
+          </div>
+          <p class="price">
+            Price<span class="actualprice">${{ car.price }}</span> / day
+          </p>
+          <a href="#" class="btn btn-primary cardbutton"
+            >Rent Now<i class="fa-solid fa-arrow-right ms-3"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <button
+      type="button"
+      class="btn btn-primary m-auto mt-5"
+      routerLink="/allcars"
+    >
+      Show All Vehicles <i class="fa-solid fa-arrow-right ms-3"></i>
+    </button>
+
+    <!-- <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit longer.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit longer.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div> -->
+
+    <!-- <div class="col">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit longer.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit longer.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit longer.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit longer.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div> -->
+  </div>
+</section>

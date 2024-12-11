@@ -1,0 +1,63 @@
+.why-choose-us {
+  margin-top: 150px;
+}
+
+.btnn {
+  display: flex !important;
+  justify-content: space-evenly !important;
+  align-items: center;
+  margin-left: 50px !important;
+  padding: 15px 45px;
+  border-radius: 10px;
+  background-color: #d8ecff;
+  color: #0b5ed7;
+}
+.captions {
+  margin-top: -150px !important;
+}
+.whychooseush1 {
+  margin-left: 50px !important;
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 49px;
+  margin-top: 30px;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+
+.main-title {
+  color: #959595;
+  font-size: 16px;
+  font-weight: 400;
+}
+.image-choose-us img {
+  object-fit: contain;
+}
+
+.image1 img {
+  margin-bottom: 25px;
+  margin-left: 50px !important;
+  
+  
+}
+
+.image2 img {
+  margin-bottom: 25px;
+  margin-left: 50px !important;
+}
+
+.image3 img {
+  margin-bottom: 25px;
+  margin-left: 50px !important;
+}
+
+.image4 img {
+  margin-bottom: 25px;
+  margin-left: 50px !important;
+}
+
+.title-image {
+  color: #6d6d6d;
+  font-weight: 400 !important;
+  margin-top: 10px;
+}

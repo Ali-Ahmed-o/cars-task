@@ -1,0 +1,90 @@
+.btnn {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+    padding: 13px;
+    border-radius: 10px;
+    background-color: #d8ecff;
+    color: #0b5ed7;
+  }
+  .card {
+    border: none;
+    box-shadow: #0b5ed7;
+  }
+  .star-rate
+  {
+      color: gold;
+  }
+  .rate
+  {
+      font-weight: 500;
+      margin-left: 5px;
+      
+  }
+  .icon1 i
+  {
+      color: grey;
+      font-size: 18px;
+      padding-top: 7px;
+  }
+  .cardline
+  {
+      border-bottom: 1px solid rgb(146, 146, 146);
+      padding-bottom: 25px;
+  }
+  .cardbutton
+  {
+      margin-top: 10px;
+      width: 100%;
+      background-color: #1572D3;
+  }
+  .actualprice
+  {
+      padding-left: 125px;
+      color: rgb(0, 0, 0);
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 17px;
+      font-family: Poppins;
+  }
+  .price
+  {
+      color: #595959;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      font-family: Poppins;
+      margin-top: 25px;
+  
+  }
+
+  .scroll-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    z-index: 9999999;
+    transition: all 0.2s ease-in-out;
+    background: linear-gradient(to left, rgb(4, 192, 255), rgb(1, 69, 94));
+    width: 49px;
+    height: 49px;
+    border-radius: 50px;
+    border: none;
+    
+    transition: all 0.4s;
+  }
+  
+  .scroll-to-top svg{
+    color: #ffffff!important;
+  }
+  .scroll-to-top:hover {
+    background: linear-gradient(to left, rgba(4, 192, 255, 0.938), rgba(1, 69, 94, 0.943));
+    color: #fff;
+    transform: translate3d(0, -.140rem, 0);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button-to-top
+  {
+    border: none;
+  }
+  

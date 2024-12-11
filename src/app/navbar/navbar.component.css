@@ -1,0 +1,11 @@
+.sign-in-button
+{
+    background-color: transparent;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.806);
+    padding: 8px;
+}
+.registeration-buttons
+{
+    margin-right: 100px;
+}

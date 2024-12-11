@@ -1,0 +1,70 @@
+.heroo {
+  height: 100vh;
+  /* background-color: rgb(86, 86, 86); */
+}
+.btnn {
+  display: flex !important;
+  justify-content: end !important;
+  align-items: center;
+
+  padding: 13px;
+  border-radius: 10px;
+  background-color: #d8ecff;
+  color: #0b5ed7;
+}
+.content h1 {
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 49px;
+}
+.card {
+  border: none;
+  box-shadow: #0b5ed7;
+}
+.star-rate
+{
+    color: gold;
+}
+.rate
+{
+    font-weight: 500;
+    margin-left: 5px;
+    
+}
+.icon1 i
+{
+    color: grey;
+    font-size: 18px;
+    padding-top: 7px;
+}
+.cardline
+{
+    border-bottom: 1px solid rgb(146, 146, 146);
+    padding-bottom: 25px;
+}
+.cardbutton
+{
+    margin-top: 10px;
+    width: 100%;
+    background-color: #1572D3;
+}
+.actualprice
+{
+    padding-left: 125px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 17px;
+    font-family: Poppins;
+}
+.price
+{
+    color: #595959;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: Poppins;
+    margin-top: 25px;
+
+}

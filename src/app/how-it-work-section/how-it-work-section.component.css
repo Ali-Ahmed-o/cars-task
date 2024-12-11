@@ -1,0 +1,43 @@
+.how-it-work
+{
+  margin-top: 200px;
+}
+.btnn {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+  padding: 13px;
+  border-radius: 10px;
+  background-color: #d8ecff;
+  color: #0b5ed7;
+}
+.content h1 {
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 49px;
+  color: #333333;
+}
+.card {
+  border: none;
+}
+
+.cardtitle h2 {
+  font-size: 20px !important;
+  margin: auto;
+}
+
+.cardtitle p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #6d6d6d;
+}
+.car-images 
+{
+    margin-top: 100px;
+    height: 35vh;
+}
+.cards
+{
+  height: 50vh;
+}

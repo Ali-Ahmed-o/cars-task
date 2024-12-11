@@ -1,0 +1,94 @@
+<section class="heroo container">
+  <div class="content">
+    <button type="button" class="btnn mt-5 mb-3 m-auto">
+      POPULAR RENTAL DEALS
+    </button>
+    <h1 class="d-flex justify-content-center">
+      Most popular cars rental deals
+    </h1>
+  </div>
+  <button type="button" class="btnn mt-5 mb-3" routerLink="/home">
+    Back To Home
+  </button>
+  <div class="row row-cols-1 mt-4 row-cols-md-4 g-4">
+    <div *ngFor="let car of cars" class="col">
+      <div class="card shadow-lg p-3 mb-5">
+        <img
+          src="assets/images/landing-page/car1.png"
+          class="card-img-top w-75 ms-4 mt-3"
+          alt="..."
+        />
+        <div class="card-body">
+          <h1>{{ car.make }}</h1>
+          <h5 class="card-title">{{ car.car }}</h5>
+          <p class="card-text">
+            <i class="fa-solid fa-star star-rate"></i>
+            <span class="rate">4.8</span> (2.426 reviews)
+          </p>
+
+          <div class="cardline">
+            <div class="card-icons d-flex">
+              <div class="icon1">
+                <i class="fa-regular fa-user"></i
+                ><span class="ms-1">4 Passangers</span>
+              </div>
+              <div class="icon1 ms-auto">
+                <i class="fa-solid fa-bezier-curve"></i
+                ><span class="ms-1">Auto</span>
+              </div>
+            </div>
+            <div class="card-icons d-flex">
+              <div class="icon1">
+                <i class="fa-solid fa-snowflake"></i
+                ><span class="ms-1">Air Conditioning</span>
+              </div>
+              <div class="icon1 ms-auto">
+                <i class="fa-solid fa-car"></i><span class="ms-1">Doors</span>
+              </div>
+            </div>
+          </div>
+          <p class="price">
+            Price<span class="actualprice">$ {{ car.price }} </span>/ day
+          </p>
+          <a href="#" class="btn btn-primary cardbutton" routerLink="/rent-now-details"
+            >Rent Now<i class="fa-solid fa-arrow-right ms-3"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav aria-label="Page navigation example" class="pt-5 pb-5">
+    <ul class="pagination justify-content-center">
+      <li class="page-item">
+        <a class="page-link" routerLink="/allcars2">Previous</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" routerLink="/allcars">1</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" routerLink="/allcars2">2</a>
+      </li>
+      <li class="page-item active">
+        <a class="page-link" routerLink="/allcars3">3</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" routerLink="/allcars">Next</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="scroll-to-top d-flex align-items-center justify-content-center">
+    <button
+      type="button"
+      class="btn active button-to-top"
+      data-toggle="button"
+      aria-pressed="true"
+      (click)="scrollToTop()"
+    >
+      <svg width="24" height="24" fill="currentColor" viewBox="0 0 20 20">
+        <path
+          d="M10,0c0,0-4.4,3-4.4,9.6c0,0.1,0,0.2,0,0.4c-0.8,0.6-2.2,1.9-2.2,3c0,1.3,1.3,4,1.3,4L7.1,14l0.7,1.6h4.4l0.7-1.6l2.4,3.1c0,0,1.3-2.7,1.3-4c0-1.1-1.5-2.4-2.2-3c0-0.1,0-0.2,0-0.4C14.4,3,10,0,10,0zM10,5.2c0.8,0,1.5,0.7,1.5,1.5S10.8,8.1,10,8.1S8.5,7.5,8.5,6.7S9.2,5.2,10,5.2z M8.1,16.3c-0.2,0.2-0.3,0.5-0.3,0.8C7.8,18.5,10,20,10,20s2.2-1.4,2.2-2.9c0-0.3-0.1-0.6-0.3-0.8h-0.6c0,0.1,0,0.1,0,0.2c0,1-1.3,1.5-1.3,1.5s-1.3-0.5-1.3-1.5c0-0.1,0-0.1,0-0.2H8.1z"
+        ></path>
+      </svg>
+    </button>
+  </div>
+</section>

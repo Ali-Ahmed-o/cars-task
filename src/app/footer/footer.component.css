@@ -1,0 +1,64 @@
+.footer-section
+{
+    background-color: #051C34;
+   padding-bottom: 30px;
+}
+.icon 
+{
+    padding-bottom: 25px;
+    font-size: 23px;
+    color: #D6D6D6;
+}
+.data-text1
+{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: -10px;
+    padding-left: 15px;
+}
+.data-text
+{
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 15px;
+}
+
+.our-product{
+    margin-left: 100px;
+    
+}
+.footer-title
+{
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    
+}
+.paragraph-title
+{
+    font-size: 14px;
+    color: #D6D6D6;
+    font-weight: 400;
+}
+.icons-title
+{
+    font-size: 23px;
+    color: #D6D6D6;
+    font-weight: 400;
+}
+.our-product
+
+{
+ width: 10rem;
+}
+.line
+{
+    border-bottom: 1px solid #575757;
+}
+.p-line
+{
+    color: #D6D6D6;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
